@@ -9,4 +9,4 @@ In source file, replace printf -> ori_printf and add this line
 Clone this repository to the root of your repo and run this command
 >- make
 >- gcc (source file) libprintf.a
->- ./a.out
+>- ./(exe file)
