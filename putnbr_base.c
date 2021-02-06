@@ -1,9 +1,8 @@
-#include <unistd.h>
-#include "printf.h"
+#include "ori_printf.h"
 
-int		ori_strlen(char *str)
+size_t	ori_strlen(const char *str)
 {
-	int len;
+	size_t len;
 
 	len = 0;
 	while (str[len] != '\0')

@@ -1,6 +1,6 @@
-#include "printf.h"
+#include "ori_printf.h"
 
-void			print(long arg, t_va *va_data, int len_blank, int len_rest)
+void			print_num(long arg, t_va *va_data, int len_blank, int len_rest)
 {
 	if (va_data->sign != -1)
 		put_blank(va_data->blank, len_blank);
@@ -68,5 +68,5 @@ void			put_number(t_va *va_data, long arg, int base)
 	len_blank = va_data->width - va_data->len;
 	if (arg < 0 && base == 16)
 		arg += i;
-	print(arg, va_data, len_blank, len_rest);
+	print_num(arg, va_data, len_blank, len_rest);
 }

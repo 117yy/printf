@@ -1,8 +1,8 @@
-NAME = printf.a
-SRCS = atoi_count.c number.c printf.c putnbr_base.c p_put.c c_put.c per_put.c s_put.c
+NAME = libprintf.a
+SRCS = ori_printf.c atoi_count.c number.c putnbr_base.c p_put.c c_put.c per_put.c s_put.c
 OBJS = $(SRCS:.c=.o)
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -c -I printf.h
+CFLAGS = -Wall -Wextra -Werror -c -I ori_printf.h
 
 all:	$(NAME)
 

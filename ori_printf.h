@@ -18,6 +18,7 @@ typedef struct	s_va
 }				t_va;
 
 int				ori_printf(const char *s, ...);
+size_t	ori_strlen(const char *str);
 int				ori_atoi_count(const char *str, t_va *va_data);
 void			put_s(t_va *va_data, char *arg);
 void			put_c(t_va *va_data, char arg);

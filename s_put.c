@@ -1,15 +1,4 @@
-#include <unistd.h>
-#include "printf.h"
-
-size_t	ori_strlen(const char *str)
-{
-	size_t len;
-
-	len = 0;
-	while (str[len] != '\0')
-		len++;
-	return (len);
-}
+#include "ori_printf.h"
 
 void	ori_putstr_len(char *s, int len)
 {
