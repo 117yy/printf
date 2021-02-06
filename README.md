@@ -7,6 +7,6 @@ In source file, replace printf -> ori_printf and add this line
 
 # Run
 Clone this repository to the root of your repo and run this command
->- make
+>- cd printf && make && cp libprintf.a .. && cd ..
 >- gcc (source file) libprintf.a
 >- ./(exe file)
