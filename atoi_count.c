@@ -1,4 +1,4 @@
-#include "printf.h"
+#include "ori_printf.h"
 
 static int	is_over(long num, int minus, char next)
 {
